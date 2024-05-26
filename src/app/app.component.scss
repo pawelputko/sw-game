@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+.sw-spinner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.sw-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Star Wars', sans-serif;
+  z-index: 2;
+
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.sw-main-content {
+  margin-top: 80px;
+
+  .sw-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sw-winner {
+    font-size: 30px;
+  }
+}
+
+.sw-scoreboard {
+  position: fixed;
+  bottom: 24px;
+  left: 10%;
+  width: 80%;
+}

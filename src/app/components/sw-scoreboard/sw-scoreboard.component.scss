@@ -1,0 +1,9 @@
+.sw-scoreboard-table {
+  background-color: #000;
+  .mat-mdc-header-row, .mat-mdc-row {
+    color: #ffc107;
+  }
+  .mat-mdc-header-cell, .mat-mdc-cell {
+    border-color: #ffc107;
+  }
+}

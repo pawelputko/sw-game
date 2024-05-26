@@ -1,0 +1,9 @@
+.sw-cards {
+  display: flex;
+  justify-content: space-around;
+
+  mat-label {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

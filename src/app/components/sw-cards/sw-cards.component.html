@@ -1,0 +1,10 @@
+<div *ngIf="player1Card && player2Card" class="sw-cards">
+  <div>
+    <mat-label>Player 1 card</mat-label>
+    <sw-card [cardDetails]="player1Card" [actionValue]="player1ActionValue"></sw-card>
+  </div>
+  <div>
+    <mat-label>Player 2 card</mat-label>
+    <sw-card [cardDetails]="player2Card" [actionValue]="player2ActionValue"></sw-card>
+  </div>
+</div>

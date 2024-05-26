@@ -1,0 +1,10 @@
+<mat-form-field>
+  <mat-label>Card type</mat-label>
+  <mat-select [value]="selectedType">
+    @for (type of cardTypes; track type) {
+      <mat-option [value]="type" (click)="changeCardType(type)">{{type}}</mat-option>
+    }
+  </mat-select>
+</mat-form-field>
+
+<button mat-flat-button color="primary" (click)="getData()">Deal the cards</button>
